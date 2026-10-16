@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devos-suite-db-sql"
+version = "1.0.0"
+description = "DeveloperOS Suite: Database & SQL Utilities"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "DeveloperOS Team", email = "tools@developeros.in" }
+]
+dependencies = [
+    "streamlit>=1.35.0,<2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.4.0",
+]
