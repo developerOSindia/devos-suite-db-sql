@@ -9,7 +9,7 @@ except ImportError:
     st = None
 
 MAIN_SITE_URL = "https://developeros.in"
-TOOLS_DIRECTORY_URL = "https://tools.developeros.in"
+TOOLS_DIRECTORY_URL = "https://toolkit.developeros.in"
 GITHUB_ORG_URL = "https://github.com/developerOSindia"
 PRIVACY_URL = "https://developeros.in/privacy"
 
